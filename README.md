@@ -5,11 +5,9 @@ Automated analysis of research themes and trends in thesis/capstone abstracts us
 
 
 Install requirements:
-bashpip install pandas matplotlib seaborn nltk scikit-learn wordcloud spacy
-python -m spacy download en_core_web_sm
+!pip install numpy==1.23.5 scipy==1.10.1 gensim==4.3.0 --force-reinstall
 
 Add your data:
-
 Place your CSV file named trend_analysis dataset.csv in the project folder
 Required columns: Title, Abstract Keywords, Year, Program
 
